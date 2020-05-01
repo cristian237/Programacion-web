@@ -74,3 +74,99 @@ let html =`
     <span> This blog has ${x} likes</span>
 `;
 console.log(html);
+
+let computers = ['HP', 'DELL', 'LENOVO', 'LG'];
+//computers[1]= 'TOSHIBA';
+console.log(computers[1]);
+
+let ages = [20, 30, 40];
+console. log(ages[2]);
+
+let random = ['HP','INTELL', 45, 89, 103];
+console.log(random);
+
+console.log(computers.length);
+
+//array methods ///////////////////////////////
+/*let result6 = computers = computers.join('*');
+console.log(result6);*/
+
+let result7 = computers.indexOf('HP');
+console.log(result7);
+
+let result8 = computers.concat(['One', 'Twno']);
+console.log(result8);
+
+let result9 = computers.push('Apple');
+
+
+/*Muestra qué número de objeto es "Four" y no qúe lugar ocupa*/
+console.log(result9);
+
+/*Muestra todos los objetos que están dentro del arreglo,
+los objetos originales junto con el objeto "Four" agregado*/
+console.log(computers);
+
+result9 = computers.pop();
+console.log(result9);
+
+// bollean and comparisons ////////////////////////////
+console.log(true, false, "true", "false");
+
+//Methods can erturn booleans ////////////////////////
+let email2 = 'ejemplo2@gmail.com';
+let names = ['Juan', 'Cristian', 'alexis'];
+
+let resul10 = email2.includes('!');
+let result10 = names.includes('Cristian'); 
+console.log(result10);
+
+//Comparison operators //////////////////////////////
+let edad2 = 23;
+console.log( edad2 == 23);
+console.log(edad2 == 25);
+console.log(edad2 != 25);
+console.log( edad2>20);
+console.log(edad2>20);
+console.log(edad2<=23);
+console.log(edad2 >= 23);
+
+let names2 = 'Jhoana';
+console.log(names2 == 'Jhoana');
+console.log(names2 =='jhoana');
+console.log(names2 > 'Sandra');
+console.log(names2 > 'jhoana');
+console.log(names2 > 'Sandra');
+
+
+let edad3 = 30;
+
+// loose comparison (different types can still be equal) ////////////
+console.log(edad3 != 30);
+console.log(edad3 != '30');
+
+//strict comparison (different types cannot be equal) ///////////////
+
+console.log(edad3 === 30);
+console.log(edad3 === '30');
+console.log(edad3 !== 30);
+console.log(edad3 !== '30');
+
+// type conversion //////////////////////////
+let score = '100';
+
+score = Number(score);
+console.log(score + 1);
+console.log(typeof score);
+
+let result11 = Number('saludo');
+console.log(result11);
+
+let result12 = String(50);
+console.log(result12);
+
+let result13 = Boolean(100);
+console.log(result13, typeof result13);
+
+let result14 = Boolean('0');
+console.log(result14, typeof result14);
