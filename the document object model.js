@@ -55,3 +55,27 @@ z.forEach(o =>{
 
 /*const content = document.querySelector('.content');
 console.log(content.innerHTML);*/
+
+const link = document.querySelector('a');
+
+console.log(link.getAttribute('href'));
+link.setAttribute('href', 'https://www.Github.com.mx');
+link.innerText = 'mensaje de prueba';
+
+const mssg = document.querySelector('p');
+
+console.log(mssg.getAttribute('class'));
+mssg.setAttribute('class', 'success');
+mssg.setAttribute('style', 'color: green;');
+
+const title2 = document.querySelector('h2');
+
+//title2.setAttribute('style', 'margin: 50px;');
+
+console.log(title.style);
+console.log(title.style.color);
+
+title.margin = '50px';
+title.style.color= 'Blue';
+title.style.fontSize = '60px';
+title.style.margin = '';
